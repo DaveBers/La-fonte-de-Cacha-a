@@ -54,6 +54,7 @@ body{
     margin: 0 1em;
   }
   .carousel-inner > .carousel-item > img {
+    cursor: pointer;
     width: 500px;
     height: 500px; 
   }

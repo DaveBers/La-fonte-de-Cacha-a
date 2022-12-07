@@ -1,127 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS Bootstrap -->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-        crossorigin="anonymous"
-        />
-        <!--CSS Projeto-->
-        <link href="/css/estilo.css" rel="stylesheet" type="text/css">
-        <link href="/css/estiloBebidas.css" rel="stylesheet" type="text/css">
-        <!-- JavaScript Bootstrap -->
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"
-        ></script>
-        <title>La Fonte de Cachaça</title>
-    </head>
-    <body>
-       <!-- NAVBAR -->
-       <nav class="navbar navbar-expand-lg fixed-top bg-primary-color border border-5" id="navbar">
-        <div class="container py-3">
-          <a class="navbar-brand" href="#">
-            <img src="/img/logo.png" alt="La Fonte de Cachaça" />
-            <span>La Fonte de Cachaça</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbar-items"
-            aria-controls="navbar-items"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="bi bi-list"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar-items">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/views/home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/views/bebidas.html">Bebidas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Receitas</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Mais
-                </a>
-                <ul class="dropdown-menu curva">
-                  <li><a class="dropdown-item" href="#">Equipe</a></li>
-                  <li><a class="dropdown-item" href="#">Localização</a></li>
-                  <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        <section>
-            <p></p>
-            <li><h1 class="espaco">Bebidas Sem Álcool:</h1></li>
-            <div id="traco"></div>
-
-            <p class="espaco">Água................................................................................... Preço Médio:R$4,00</p>
-            <img class="bebida"src="/img/Agua sem gás.jpg" alt="">
-            <p class="espaco">Água com gás .................................................................. Preço Médio:R6,00</p>
-            <img class="bebida" src="/img/Agua com gás.jpg" alt="">
-            <p class="espaco">Refrigerante lata............................................................... Preço Médio:R$5,00</p>
-            <img class="bebida" src="/img/Refri latas.png" alt="">
-            <p class="espaco">Refrigerante 600ml............................................................ Preço Médio:R$8,00</p>
-            <img class="bebida" src="/img/refrigerantes 600ml.jpg" alt="">
-      
-            <li><h1>Whiskys  </h1></li>
-            <div id="traco"></div>
-
-            <p> Não se sabe bem ao certo sobre a criação do whisky, algumas fontes citam monges irlandeses como pioneiros na fabricação do espírito, outras assumem que os inventores eram agricultores escoceses das montanhas, por volta do século VIII.</p>
-            <h1>Tipos De Whiskys:</h1>
-            <p class="espaco">Jack Daniel's................................................................ Preço Médio(Garrafa 1L):R$180,00</p>
-            <img class="bebida" src="/img/jack-daniels.png" alt="">
-            <p class="espaco">Johnnie Walker Red Label........................................... Preço Médio(Garrafa 1L):R$100,00 </p>
-            <img class="bebida" src="/img/Whisky-Johnnie-Walker-Red-Label-1L.png" alt="">
-            <p class="espaco">Johnnie Walker Gold Label Reserve.......................... Preço Médio(Garrafa 750ml):R$350,00</p>
-            <img class="bebida" src="/img/gold-label.png" alt="">
-            <p class="espaco">Johnnie Walker Blue Label........................................  Preço Médio(Garrafa 750ml):R$1,500</p>
-            <img class="bebida" src="/img/Johnnie Walker Blue Label.png" alt="">
-
-            <li><h1>Vinhos</h1></li>
-            <div id="traco"></div>
-     
-            <p>Há indícios de que o vinho existe há mais de 7.000 anos, e sua origem mais provável é o Oriente Médio, região onde hoje estão Síria, Líbano e Jordânia.</p>
-            <h1>Tipos De Vinhos:</h1>
-            <p class="espaco">Concha y Toro Casillero del Diablo.....................................Preço Médio(Garrafa 750ml) R$50,00</p>
-            <img class="bebida" src="/img/Concha y Toro Casillero del Diablo.png" alt="">
-            <p class="espaco">Malbec Doña Paula..................................................................Preço Médio(Garrafa 750ml) R$70,00</p>
-            <img class="bebida" src="/img/Malbec Doña Paula.png" alt="">
-            <p class="espaco">Tempranillo Toro Loco....................................................... Preço Médio(Garrafa 750ml)R$50,00</p>
-            <img class="bebida" src="/img/Tempranillo Toro Loco.png" alt="" >
-            <p class="espaco">Reservado Cabernet Sauvignon........................................Preço Médio(Garrafa 750ml) R$30,00</p>
-            <img class="bebida" src="/img/Reservado Cabernet Sauvignon.webp" alt="">
-
-            <li><h1>Vodkas</h1></li>
-            <div id="traco"></div>
-
-            <p>A vodka foi descoberta por volta de 1893 na Rússia sob o nome de "aguinha" (vodka em russo). O responsável pela ação foi ninguém menos que o renomado cientista Dmitri Ivanovich Mendeleev. Naquela época, um professor da Universidade de São Petersburgo estava pesquisando a receita mais adequada para a bebida.</p>
-            <h1>Tipos De Vodkas:</h1>
-            <p class="espaco">Grey Goose Original......................................................Preço Médio(Garrafa 750ml) R$200,00</p>
-            <img class="bebida" src="/img/Grey Goose Original.webp" alt="">
-            <p class="espaco">Smirnoff........................................................................ Preço Médio(Garrafa 600ml)R$30,00</p>
-            <img class="bebida" src="/img/smirnoff.png" alt="">
-            <p class="espaco">Absolut Original............................................................ Preço Médio(Garrafa 750ml)R$90,00</p>
-            <img class="bebida"src="/img/Absolut Original.png" alt="">
-            <p class="espaco">Absolut Elyx...................................................................Preço Médio(Garrafa 750ml) R$160,00</p>
-            <img class="bebida" src="/img/Absolut Elyx.png" alt="">
-
-        </section>
-    </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <!--CSS Projeto-->
+    <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="/css/estiloBebidas.css" rel="stylesheet" type="text/css">
+    <!-- JavaScript Bootstrap -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+    ></script>
+    <title>La Fonte de Cachaça</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-primary-color border border-5" id="navbar">
+    <div class="container py-3">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" alt="La Fonte de Cachaça" />
+        <h1>La Fonte de Cachaça</h1>
+      </a>
+      <div class="collapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/views/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/views/bebidas.html">Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Receitas</a>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mais
+              </a>
+              <ul class="dropdown-menu curva">
+                <li><a class="dropdown-item" href="#">Equipe</a></li>
+                <li><a class="dropdown-item" href="#">Localização</a></li>
+                <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
+              </ul>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section>
+      <div>
+        <h1 class="espaco">Bebidas Sem Álcool:</h1>
+        <hr id="traco">
+        <p class="espaco">Água................................................................................... Preço Médio:R$4,00</p>
+        <img class="bebida"src="/img/Agua sem gás.jpg" alt="">
+        <p class="espaco">Água com gás .................................................................. Preço Médio:R6,00</p>
+        <img class="bebida" src="/img/Agua com gás.jpg" alt="">
+        <p class="espaco">Refrigerante lata............................................................... Preço Médio:R$5,00</p>
+        <img class="bebida" src="/img/Refri latas.png" alt="">
+        <p class="espaco">Refrigerante 600ml............................................................ Preço Médio:R$8,00</p>
+        <img class="bebida" src="/img/refrigerantes 600ml.jpg" alt="">
+      </div>
+      <div>
+        <h1>Whiskys</h1>
+        <hr id="traco">
+        <p>Não se sabe bem ao certo sobre a criação do whisky, algumas fontes citam monges irlandeses como pioneiros na fabricação do espírito, outras assumem que os inventores eram agricultores escoceses das montanhas, por volta do século VIII.</p>
+        <h1>Tipos De Whiskys:</h1>
+        <p class="espaco">Jack Daniel's................................................................ Preço Médio(Garrafa 1L):R$180,00</p>
+        <img class="bebida" src="/img/jack-daniels.png" alt="">
+        <p class="espaco">Johnnie Walker Red Label........................................... Preço Médio(Garrafa 1L):R$100,00 </p>
+        <img class="bebida" src="/img/Whisky-Johnnie-Walker-Red-Label-1L.png" alt="">
+        <p class="espaco">Johnnie Walker Gold Label Reserve.......................... Preço Médio(Garrafa 750ml):R$350,00</p>
+        <img class="bebida" src="/img/gold-label.png" alt="">
+        <p class="espaco">Johnnie Walker Blue Label........................................ Preço Médio(Garrafa 750ml):R$1,500</p>
+        <img class="bebida" src="/img/Johnnie Walker Blue Label.png" alt="">
+      </div>
+      <div>
+        <h1>Vinhos</h1>
+        <hr id="traco">
+        <p>Há indícios de que o vinho existe há mais de 7.000 anos, e sua origem mais provável é o Oriente Médio, região onde hoje estão Síria, Líbano e Jordânia.</p>
+        <h1>Tipos De Vinhos:</h1>
+        <p class="espaco">Concha y Toro Casillero del Diablo..................................... Preço Médio(Garrafa 750ml) R$50,00</p>
+        <img class="bebida" src="/img/Concha y Toro Casillero del Diablo.png" alt="">
+        <p class="espaco">Malbec Doña Paula.................................................................. Preço Médio(Garrafa 750ml) R$70,00</p>
+        <img class="bebida" src="/img/Malbec Doña Paula.png" alt="">
+        <p class="espaco">Tempranillo Toro Loco....................................................... Preço Médio(Garrafa 750ml)R$50,00</p>
+        <img class="bebida" src="/img/Tempranillo Toro Loco.png" alt="" >
+        <p class="espaco">Reservado Cabernet Sauvignon........................................ Preço Médio(Garrafa 750ml) R$30,00</p>
+        <img class="bebida" src="/img/Reservado Cabernet Sauvignon.webp" alt="">
+      </div>
+      <div>
+        <h1>Vodkas</h1>
+        <hr id="traco">
+        <p>A vodka foi descoberta por volta de 1893 na Rússia sob o nome de "aguinha" (vodka em russo). O responsável pela ação foi ninguém menos que o renomado cientista Dmitri Ivanovich Mendeleev. Naquela época, um professor da Universidade de São Petersburgo estava pesquisando a receita mais adequada para a bebida.</p>
+        <h1>Tipos De Vodkas:</h1>
+        <p class="espaco">Grey Goose Original...................................................... Preço Médio(Garrafa 750ml) R$200,00</p>
+        <img class="bebida" src="/img/Grey Goose Original.webp" alt="">
+        <p class="espaco">Smirnoff........................................................................ Preço Médio(Garrafa 600ml)R$30,00</p>
+        <img class="bebida" src="/img/smirnoff.png" alt="">
+        <p class="espaco">Absolut Original............................................................ Preço Médio(Garrafa 750ml)R$90,00</p>
+        <img class="bebida"src="/img/Absolut Original.png" alt="">
+        <p class="espaco">Absolut Elyx................................................................... Preço Médio(Garrafa 750ml) R$160,00</p>
+        <img class="bebida" src="/img/Absolut Elyx.png" alt="">
+      </div>
+    </section>
+</body>
 </html>
