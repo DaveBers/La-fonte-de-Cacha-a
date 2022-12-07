@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: osvaldo;
+	src: url(/Fonte/Oswald-VariableFont_wght.ttf);
+}
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 25%, rgba(255,179,0,1) 96%);
+}
+.bg-primary-color{
+	background-color: rgb(255, 255, 255);
+}
+.bg-secundary-color{
+	background-color: goldenrod;
+}
+.navbar-brand img {
+    width: 30px;
+  }
+#navbar a {
+    color: #050505;
+  }
+  
+  #navbar a:hover {
+    color: goldenrod;
+  }
+  
+  #navbar .active {
+    border-bottom: 1px solid #050505;
+  }
+  
+  .navbar-brand {
+    display: flex;
+  }
+  
+  .navbar-brand img {
+    width: 60px;
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+	font-family: osvaldo;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
+  .carousel-inner > .carousel-item > img {
+    width: 500px;
+    height: 500px; 
+  }
+button :hover {
+  text-emphasis-color: goldenrod;
+}
+.card{
+  display:inline-block;
+  margin: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+.curva{
+  border-radius: 18px;
+}
+footer{
+  margin-top: 100px;
+}

@@ -1,0 +1,8 @@
+@charset "uft-8";
+body{
+    margin: 0px;
+    margin-right: 0px;
+    background-image: url(/img/fundoCacheta.png);
+    background-size: contain;
+    background-position: 100%
+}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+    margin-right: 0px;
+    background-image: url(/img/fundoPebolim.png);
+    background-size: contain;
+    background-position: 100%
+}
