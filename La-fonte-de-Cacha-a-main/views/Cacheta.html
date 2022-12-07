@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--CSS projeto-->
+    <link href="../css/estiloConteudoGeral.css" rel="stylesheet" type="text/css">
+    <link href="../css/estiloNav.css" rel="stylesheet" type="text/css">
+    <!-- Google fonts Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fonte de Cachaça</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color border border-5" id="navbar">
+        <div class="container py-3">
+            <a class="navbar-brand" href="../home.html">
+                <img src="../img/logo.png" alt="La Fonte de Cachaça" />
+                <span>La Fonte de Cachaça</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Receitas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mais
+                        </a>
+                        <ul class="dropdown-menu curva">
+                            <li><a class="dropdown-item" href="#">Equipe</a></li>
+                            <li><a class="dropdown-item" href="#">Localização</a></li>
+                            <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="titulo espaco">Cacheta</h1>
+    <section>
+        <p>Cada participante deve receber nove cartas e o carteador deve distribuí-las no sentido anti-horário. O
+            objetivo é eliminar todos os oponentes e ser o único a ficar na mesa.</p>
+    </section>
+    <hr id="traco">
+    <h1>Regras:</h1>
+    <section>
+        <ol>
+            <li>A Cacheta é jogada de dois a cinco participantes.</li>
+            <li>O jogo é jogado de forma individual.</li>
+            <li>Todos iniciam a partida com sete ou dez pontos (ou vidas).</li>
+            <li>Quando alguém bate, os demais perdem um ponto. Um jogador sai do jogo quando chega a pontuação zero.
+            </li>
+            <li>Se um jogador bater com 10 cartas, os demais perdem dois pontos ao invés de um.</li>
+            <li>Para bater com 10 cartas, uma das trincas ou sequências deve ter uma quarta carta, chamada de ponta.
+            </li>
+        </ol>
+    </section>
+    <hr id="traco">
+    <h1>Vocabulário utilizado na Cacheta:</h1>
+    <section>
+        <ul class="texto">
+            <li>Trinca: três cartas de mesmo valor e naipes diferentes, sendo que todos podem agregar uma quarta ou
+                quinta carta do mesmo valor, desde que sejam de um dos naipes da trinca.</li>
+            <li>Sequência: três ou mais cartas do mesmo naipe em sequência de valores.</li>
+            <li>Vira: carta do monte de compra que será virada para determinar o coringa, que será sempre a carta acima
+                da que foi virada, da mesma cor.</li>
+            <li>Curinga: carta que pode substituir qualquer outra em uma sequência ou trinca. Só pode usar um por jogo.
+            </li>
+            <li>Bater: combinar e baixar as nove ou as dez cartas da mão, formando trincas e/ou sequências.</li>
+            <li>Monte: pilha de cartas de sobra.</li>
+            <li>Lixeira: cartas descartadas pelos jogadores.</li>
+            <li>Furar a fila: comprar da lixeira fora da sua vez com o objetivo de bater. Isso pode ser feito apenas se
+                você anunciar que está "na boa".</li>
+        </ul>
+    </section>
+</body>
+
+</html>
