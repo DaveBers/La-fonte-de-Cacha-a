@@ -1,33 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Fonte de Cachaça</title>
-        <link href="../css/estiloConteudoGeral.css" rel="stylesheet" type="text/css">
-        <link href="../css/estiloPebolim.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <a href="../home.html"><h1 id="container">LA FONTE DE CACHAÇA</h1></a>
-        </header>
-        <h1 class="titulo">Pebolim</h1>
-        <section>
-            <p>Jogo também chamado Pacau, Fla-Flu, Bonequinho ou pimbolim, foi inventado há 80 anos por um poeta anarquista. Em novembro de 1936, poucos meses após o início da Guerra Civil Espanhola, uma bomba caiu sobre a casa do jovem Alejandro Campos Ramírez em Madri, deixando-o preso nos escombros. Ele ficou gravemente ferido e foi levado para um hospital na cidade de Montserrat, em Valência. Lá ele viu chegando refugiados da guerra, mulheres e muitas crianças feridas. Assim como ele, muitas crianças não puderam mais jogar bola. Foi então que Alejandro começou a desenvolver a ideia do jogo, que anos depois deu a volta ao mundo. Ao Brasil, o esporte chegou na década de 1950, provavelmente trazido por imigrantes espanhóis.</p>
-        </section>
-        <hr id="traco">
-        <h1>Regras:</h1>
-        <section>
-            <ol>
-                <li>Duas equipes (de uma ou duas pessoas cada</li>
-                <li>O jogo inicia com a bola no meio da mesa</li>
-                <li>As partidas terminam quando uma dupla marcar 7 (sete) gols.</li>
-                <li>Decisão no par ou ímpar para local da mesa</li>
-                <li>Quando travar a bola, reiniciar no meio da mesa novamente</li>
-                <li>Não poderá girar o boneco 360 GRAUS durante o jogo.</li>
-                <li>Caso ocorra algum gol com giro de 360 GRAUS, o gol não valerá.</li>
-            </ol>
-        </section>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--CSS projeto-->
+    <link href="../css/estiloConteudoGeral.css" rel="stylesheet" type="text/css">
+    <link href="../css/estiloNav.css" rel="stylesheet" type="text/css">
+    <!-- Google fonts Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fonte de Cachaça</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color border border-5" id="navbar">
+        <div class="container py-3">
+            <a class="navbar-brand" href="../home.html">
+                <img src="../img/logo.png" alt="La Fonte de Cachaça" />
+                <span>La Fonte de Cachaça</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Receitas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mais
+                        </a>
+                        <ul class="dropdown-menu curva">
+                            <li><a class="dropdown-item" href="#">Equipe</a></li>
+                            <li><a class="dropdown-item" href="#">Localização</a></li>
+                            <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="titulo espaco">Pebolim</h1>
+    <section>
+        <p>Jogo também chamado Pacau, Fla-Flu, Bonequinho ou pimbolim, foi inventado há 80 anos por um poeta anarquista.
+            Em novembro de 1936, poucos meses após o início da Guerra Civil Espanhola, uma bomba caiu sobre a casa do
+            jovem Alejandro Campos Ramírez em Madri, deixando-o preso nos escombros. Ele ficou gravemente ferido e foi
+            levado para um hospital na cidade de Montserrat, em Valência. Lá ele viu chegando refugiados da guerra,
+            mulheres e muitas crianças feridas. Assim como ele, muitas crianças não puderam mais jogar bola. Foi então
+            que Alejandro começou a desenvolver a ideia do jogo, que anos depois deu a volta ao mundo. Ao Brasil, o
+            esporte chegou na década de 1950, provavelmente trazido por imigrantes espanhóis.</p>
+    </section>
+    <hr id="traco">
+    <h1>Regras:</h1>
+    <section>
+        <ol class="texto">
+            <li>Duas equipes (de uma ou duas pessoas cada</li>
+            <li>O jogo inicia com a bola no meio da mesa</li>
+            <li>As partidas terminam quando uma dupla marcar 7 (sete) gols.</li>
+            <li>Decisão no par ou ímpar para local da mesa</li>
+            <li>Quando travar a bola, reiniciar no meio da mesa novamente</li>
+            <li>Não poderá girar o boneco 360 GRAUS durante o jogo.</li>
+            <li>Caso ocorra algum gol com giro de 360 GRAUS, o gol não valerá.</li>
+        </ol>
+    </section>
+</body>
+
 </html>
