@@ -13,7 +13,7 @@
     color: #050505;
 }
   
-#navbar a:hover {
+#navbar :hover {
     color: goldenrod;
 }
   
