@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family: osvaldo;
+    src: url(/Fonte/Oswald-VariableFont_wght.ttf);
+}
+p{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    word-spacing: 5px;
+}
+body{
+    background: rgba(255, 255, 255, 0.637);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.644) 0%, rgba(255, 255, 224, 0.712) 100%);
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.bebida{
+    height: 300px;
+    width: 200;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
